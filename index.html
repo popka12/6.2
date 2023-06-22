@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+  <style>
+    caption{
+      border: 1px solid grey;
+    }
+    table {
+      border: 1px solid grey;
+    }
+    th {
+      border: 1px solid grey;
+    }
+    td {
+      border: 1px solid grey;
+    }
+  </style>
+</head>
+<body>
+<table>
+  <caption>Логічний елемент І-НЕ</caption>
+  <tr>
+    <th rowspan="2">Логійчні вирази</th>
+    <th colspan="2">Можливі відповіді</th>
+    <th rowspan="2">Для перевірки прийнятого рішення зробіть клік по
+      кнопці</th>
+  </tr>
+  <tr >
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>0 V 0=</td><td>
+    <div>
+      <input type="radio" id="0" name="first" value="0" checked>
+      <label for="0"></label>
+    </div>
+  </td><td> <div>
+    <input type="radio" id="1" name="first" value="1"checked>
+    <label for="1"></label>
+  </div></td><td><button class="btn1">Перевірка</button></td>
+  </tr>
+  <tr>
+    <td>0 V 1=</td><td><div>
+    <input type="radio" id="2" name="second" value="2"checked>
+    <label for="2"></label>
+  </div></td><td><div>
+    <input type="radio" id="3" name="second" value="3"checked>
+    <label for="3"></label>
+  </div></td><td><button class="btn2">Перевірка</button></td>
+  </tr>
+  <tr>
+    <td>1 V 0=</td><td><div>
+    <input type="radio" id="4" name="third" value="4"checked>
+    <label for="4"></label>
+  </div></td><td><div>
+    <input type="radio" id="5" name="third" value="5"checked>
+    <label for="5"></label>
+  </div></td><td><button class="btn3">Перевірка</button></td>
+  </tr>
+  <tr>
+    <td>1 V 1=</td><td><div>
+    <input type="radio" id="6" name="four" value="6" checked>
+    <label for="6"></label>
+  </div></td><td><div>
+    <input type="radio" id="7" name="four" value="7"
+           checked>
+    <label for="7"></label>
+  </div></td><td><button class="btn5">Перевірка</button></td>
+  </tr>
+</table>
+<div class="div"></div>
+<script src="main.js">
+</script>
+</body>
+</html>
